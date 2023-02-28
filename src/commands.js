@@ -1,7 +1,7 @@
 // @flow strict
 
 export const commandDocURL =
-  "https://github.com/torrancecui/boobielol/tree/master/src";
+  "https://github.com/torrancecui/bozolol/tree/master/src";
 
 export type CommandType = {|
   name: string,
@@ -39,9 +39,9 @@ export type ColumnDataTableType = {|
 |};
 
 export const COMMANDS: { [CommandNames]: CommandType } = {
-  boobie: {
-    name: "boobielol",
-    url: "https://github.com/torrancecui/boobielol/blob/master/src/commands.js",
+  bozo: {
+    name: "bozolol",
+    url: "https://github.com/torrancecui/bozolol/blob/master/src/commands.js",
   },
   // SOCIAL MEDIA
   fb: {
@@ -102,6 +102,11 @@ export const COMMANDS: { [CommandNames]: CommandType } = {
     url: "https://www.marcus.com/us/en/dashboard",
   },
   // OTHER
+  az: {
+    name: "Amazon",
+    url: "https://www.amazon.com/",
+    searchurl: "https://www.amazon.com/s?k=",
+  },
   gh: {
     name: "GitHub",
     url: "https://github.com/",

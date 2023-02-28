@@ -2,7 +2,7 @@
 
 | Command  | Name            |
 | -------- | --------------- |
-| boobie   | this            |
+| bozo     | this            |
 | fb       | Facebook        |
 | ig       | Instagram       |
 | tw       | Twitter         |
