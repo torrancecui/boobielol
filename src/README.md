@@ -22,4 +22,3 @@
 | az       | Amazon          |
 | yt       | YouTube         |
 | nfx      | Netflix         |
-| DEFAULT  | Google          |
