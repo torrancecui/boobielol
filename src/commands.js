@@ -41,7 +41,7 @@ export type ColumnDataTableType = {|
 export const COMMANDS: { [CommandNames]: CommandType } = {
   bozo: {
     name: "bozolol",
-    url: "https://github.com/torrancecui/bozolol/blob/master/src/commands.js",
+    url: "https://github.com/torrancecui/bozolol/tree/master/src",
   },
   // SOCIAL MEDIA
   fb: {
