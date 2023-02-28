@@ -4,7 +4,6 @@ import type { CommandType } from "./commands.js";
 import { commandDocURL } from "./commands.js";
 
 import { COMMANDS } from "./commands.js";
-import { viewHelpPage } from "./help.js";
 
 const redirect: (string) => Promise<void> = async function (url: string) {
   await window.location.replace(url);
