@@ -1,5 +1,8 @@
 // @flow strict
 
+export const commandDocURL =
+  "https://github.com/torrancecui/boobielol/blob/master/src/commands.js";
+
 export type CommandType = {|
   name: string,
   url: string,
@@ -38,7 +41,7 @@ export type ColumnDataTableType = {|
 export const COMMANDS: { [CommandNames]: CommandType } = {
   boobie: {
     name: "boobielol",
-    url: "https://boobielol.netlify.app",
+    url: "https://github.com/torrancecui/boobielol/blob/master/src/commands.js",
   },
   // SOCIAL MEDIA
   fb: {

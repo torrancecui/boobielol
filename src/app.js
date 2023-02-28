@@ -1,6 +1,7 @@
 // @flow strict
 
 import type { CommandType } from "./commands.js";
+import { commandDocURL } from "./commands.js";
 
 import { COMMANDS } from "./commands.js";
 import { viewHelpPage } from "./help.js";
@@ -31,7 +32,7 @@ const bunnylol: (string) => Promise<boolean> = async function (
       const command: CommandType = COMMANDS[prefix];
       const protocol: string = new URL(command.url).protocol;
       if (protocol !== "https:" && protocol !== "http:") {
-        viewHelpPage();
+        await redirect(commandDocURL);
       }
       if (command.searchurl && arr.length !== 1) {
         const searchParam = prefix !== "$" ? prefix.length + 1 : prefix.length;
@@ -55,7 +56,7 @@ const currCmd: string =
 
 switch (currCmd) {
   case "help" || "":
-    viewHelpPage();
+    await redirect(commandDocURL);
     break;
   default:
     bunnylol(currCmd)
