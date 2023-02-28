@@ -61,7 +61,8 @@ export const COMMANDS = {
   },
   where: {
     name: "Google Maps",
-    url: "https://www.google.com/maps/search/",
+    url: "https://www.google.com/maps/",
+    searchurl: "https://www.google.com/maps/search/",
   },
   // FINANCES
   chase: {
