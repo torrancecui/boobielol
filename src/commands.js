@@ -1,7 +1,7 @@
 // @flow strict
 
 export const commandDocURL =
-  "https://github.com/torrancecui/boobielol/blob/master/src/commands.js";
+  "https://github.com/torrancecui/boobielol/tree/master/src";
 
 export type CommandType = {|
   name: string,
