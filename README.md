@@ -2,9 +2,7 @@
 
 Based off Facebook's bunnylol smart bookmarking tool.
 
-## local dev instructions
-
-Start server with `npm start`
+## new command instructions
 
 Add commands to `commands.js` and run `npm run prepublish`. Don't forget to add new command to /src README file.
 
