@@ -15,8 +15,9 @@
 | chase    | JP Morgan Chase |
 | fidelity | Fidelity        |
 | marcus   | GS Marcus       |
-| az       | Amazon          |
 | gh       | GitHub          |
+| net      | Netlify         |
+| az       | Amazon          |
 | yt       | YouTube         |
 | nfx      | Netflix         |
 | DEFAULT  | Google          |

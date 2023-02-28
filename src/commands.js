@@ -95,22 +95,27 @@ export const COMMANDS: { [CommandNames]: CommandType } = {
   },
   fidelity: {
     name: "Fidelity",
-    url: "https://www.chase.com/",
+    url: "https://login.fidelity.com/ftgw/Fas/Fidelity/NBPart/Login/Init?",
   },
   marcus: {
     name: "Marcus",
     url: "https://www.marcus.com/us/en/dashboard",
+  },
+  // DEV
+  gh: {
+    name: "GitHub",
+    url: "https://github.com/",
+    searchurl: "https://www.github.com/search?q=",
+  },
+  net: {
+    name: "Netlify",
+    url: "https://app.netlify.com/teams/torrancecui/overview",
   },
   // OTHER
   az: {
     name: "Amazon",
     url: "https://www.amazon.com/",
     searchurl: "https://www.amazon.com/s?k=",
-  },
-  gh: {
-    name: "GitHub",
-    url: "https://github.com/",
-    searchurl: "https://www.github.com/search?q=",
   },
   yt: {
     name: "YouTube",
