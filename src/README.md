@@ -12,9 +12,11 @@
 | gm       | Gmail           |
 | gd       | Google Drive    |
 | cal      | Google Calendar |
+| where    | Google Maps     |
 | chase    | JP Morgan Chase |
 | fidelity | Fidelity        |
 | marcus   | GS Marcus       |
+| schwab   | Charles Schwab  |
 | gh       | GitHub          |
 | net      | Netlify         |
 | az       | Amazon          |

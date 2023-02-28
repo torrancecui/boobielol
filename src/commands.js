@@ -3,42 +3,13 @@
 export const commandDocURL =
   "https://github.com/torrancecui/bozolol/tree/master/src";
 
-export type CommandType = {|
+export type CommandType = {
   name: string,
   url: string,
   searchurl?: string,
-|};
+};
 
-export type CommandNames =
-  | "fb"
-  | "ig"
-  | "tw"
-  | "r"
-  | "l"
-  | "g"
-  | "gm"
-  | "gd"
-  | "cal"
-  | "gh"
-  | "yt"
-  | "nfx"
-  | "chase"
-  | "fidelity"
-  | "marcus"
-  | "DEFAULT";
-
-export type CommandDataTableType = {|
-  name: string,
-  url: string,
-  command: CommandNames,
-|};
-
-export type ColumnDataTableType = {|
-  data: string,
-  title: string,
-|};
-
-export const COMMANDS: { [CommandNames]: CommandType } = {
+export const COMMANDS = {
   bozo: {
     name: "bozolol",
     url: "https://github.com/torrancecui/bozolol/tree/master/src",
@@ -88,6 +59,10 @@ export const COMMANDS: { [CommandNames]: CommandType } = {
     name: "Google Calendar",
     url: "https://calendar.google.com/calendar/r",
   },
+  where: {
+    name: "Google Maps",
+    url: "https://www.google.com/maps/search/",
+  },
   // FINANCES
   chase: {
     name: "Chase",
@@ -100,6 +75,10 @@ export const COMMANDS: { [CommandNames]: CommandType } = {
   marcus: {
     name: "Marcus",
     url: "https://www.marcus.com/us/en/dashboard",
+  },
+  schwab: {
+    name: "Charles Schwab",
+    url: "https://client.schwab.com/Login/SignOn/CustomerCenterLogin.aspx",
   },
   // DEV
   gh: {
