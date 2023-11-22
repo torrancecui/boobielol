@@ -23,7 +23,7 @@ export const COMMANDS = {
   ig: {
     name: "Instagram",
     url: "https://instagram.com/",
-    searchurl: "https://instagram.com/",
+    searchurl: "https://www.instagram.com/explore/search/keyword/?q=",
   },
   tw: {
     name: "Twitter",
@@ -41,6 +41,11 @@ export const COMMANDS = {
   },
   // GOOGLE
   g: {
+    name: "Google",
+    url: "https://google.com/",
+    searchurl: "https://www.google.com/search?q=",
+  },
+  s: {
     name: "Google",
     url: "https://google.com/",
     searchurl: "https://www.google.com/search?q=",
