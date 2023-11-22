@@ -8,7 +8,7 @@
 | tw       | Twitter         |
 | r        | Reddit          |
 | l        | LinkedIn        |
-| g        | Google          |
+| g, s     | Google          |
 | gm       | Gmail           |
 | gd       | Google Drive    |
 | cal      | Google Calendar |
